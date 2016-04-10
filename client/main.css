@@ -1,1 +1,100 @@
-/* CSS declarations go here */
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+@font-face {
+    font-family: 'Myriad Pro Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Semibold'), url('fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+.reveal section img.no-border {
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    background: none;
+}
+#lucas-icons {
+    position: absolute;
+    bottom: -183px;
+    right: 0;
+    width: 200px;
+    height: 183px;
+    text-align: left;
+}
+#lucas-icons a {
+    display: block;
+    color: rgb(75, 115, 153);
+    text-decoration: none;
+}
+#lucas-icons a:hover {
+    display: block;
+    color: rgb(150, 150, 150);
+}
+.oops {
+    text-decoration: line-through;
+}
+.show-and-hide {
+    display: none;
+}
+.show-and-hide.current-fragment {
+    display: block;
+}
+li.show-and-hide.current-fragment {
+    display: list-item;
+}
+.reveal h1, .reveal h2 {
+    margin-bottom: 50px;
+    color: rgb(75, 115, 153);
+}
+img.illustration {
+    display: block;
+}
+.reveal {
+    font-family: "Myriad Pro Regular", Calibri, sans-serif;
+    color: rgb(150, 150, 150);
+    background-color: rgb(255, 255, 255);
+    font-size: 1.4em;
+}
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
+    border-bottom-color: rgb(75, 115, 153);
+}
+.reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+    border-top-color: rgb(75, 115, 153);
+}
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+    border-right-color: rgb(75, 115, 153);
+}
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+    border-left-color: rgb(75, 115, 153);
+}
+.reveal .progress span {
+    background: rgb(75, 115, 153);
+}
+.reveal .fragment.operand, .reveal .fragment.operator, .reveal .fragment.equal, .reveal .fragment.result {
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+}
+.operand {
+    width: 33%;
+}
+.operator {
+    width: 34%;
+}
+.reveal .fragment.equal {
+    margin: 50px 0 50px 0;
+    width: 100%;
+    clear: both;
+}
+.result {
+    width: 100%;
+}
+.reveal pre {
+    font-size: 0.7em;
+}
+.reveal form {
+    margin: 15px 0 15px 0;
+}
