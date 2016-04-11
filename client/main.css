@@ -17,6 +17,7 @@
     background: none;
 }
 #lucas-icons {
+    font-size: 0.8em;
     position: absolute;
     bottom: -183px;
     right: 0;
@@ -97,4 +98,12 @@ img.illustration {
 }
 .reveal form {
     margin: 15px 0 15px 0;
+}
+.reveal div.more-infos {
+    font-size: 0.8em;
+    position: absolute;
+    bottom: -183px;
+    left: 0;
+    height: 183px;
+    text-align: left;
 }
