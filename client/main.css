@@ -10,6 +10,11 @@
     font-weight: normal;
     src: local('Myriad Pro Semibold'), url('fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
 }
+body {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
 .reveal section img.no-border {
     border: 0;
     box-shadow: none;
@@ -94,7 +99,7 @@ img.illustration {
     width: 100%;
 }
 .reveal pre {
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 .reveal form {
     margin: 15px 0 15px 0;
@@ -106,4 +111,10 @@ img.illustration {
     left: 0;
     height: 183px;
     text-align: left;
+}
+.reveal h1 {
+    font-size: 1.6em;
+}
+.reveal h2 {
+    font-size: 1.5em;
 }
